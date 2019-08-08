@@ -5,6 +5,6 @@ title: "Inicio"
 params:
   description: "Música"
   images:
-  - '/img/quilt2.png'
+  - '/img/og-image.png'
   title: AbjolAbjol
 googleAnalytics: 
