@@ -1,0 +1,14 @@
+<div class="pb4">
+	<div class="ph3 mw7 center">
+
+		<h2 class="f2 lh-title mb3 ml3 tight">música</h2>
+
+		<div class="ml3 w-100 flex-ns mhn1-ns flex-wrap mb3">
+			{{ range .Data.Pages }}
+				<div class="w-50-l flex">
+					{{ .Render "li" }}
+				</div>
+			{{ end }}
+		</div>
+	</div>
+</div>

@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+  <div class="mw6 center ph4 pv4">
+    blah
+    {{.}}
+    <h1 class='f2 primary mb3'>{{.Title}}</h1>
+    <span class=''>{{ .Params.project }}</span>
+    <audio controls>
+      <source src="{{ .Params.file }}.mp3" type="audio/mpeg">
+      <source src="{{ .Params.file }}.ogg" type="audio/ogg">
+      <p>Tu navegador no soporta HTML5 audio. Podés descargar el archivo en mp4 <a href="{{ .Params.file }}.mp4">aquí.</a> instead.</p>
+    </audio>
+{{ partial "share-buttons.html" . }}
+  </div>
+{{ end }}

@@ -1,0 +1,14 @@
+{{ define "main" }}
+{{ partial "jumbotron" . }}
+
+<main class="mw7 center mv5">
+  <section class="flex-ns flex-wrap mhn1-ns pa3">
+    {{ $paginator := .Paginate (.Pages) }}
+    {{ range $paginator.Pages.ByTitle }}
+      {{ .Render "li"}}
+    {{ end }}
+  </section>
+  {{ partial "pagination" . }}
+</main>
+
+{{end}}
