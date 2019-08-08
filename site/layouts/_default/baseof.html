@@ -1,10 +1,9 @@
 <!doctype html>
 <html lang="es">
   {{ partial "head" . }}
-  <body class="pt5 primary bg-white">
-    {{ partial "nav" . }}
+  <body class="pt5 white bg-black">
     <!-- {{ partial "breadcrumb" . }}-->
     {{ block "main" . }}{{ end }} 
-    {{ partial "footer" . }} 
+    <span>Hecho por <a href='https://maleza.chuncane.com' target='blank'>Maleza</a> para <a href='https://chuncane.com'>Chuncane</a></span>
   </body>
 </html>

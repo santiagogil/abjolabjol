@@ -132,3 +132,6 @@ p + p {
 .vw-100 {
   width: 100vw;
 }
+.title {
+  font-family: "Lack Line", sans-serif;
+}

@@ -1,10 +1,10 @@
-baseurl: "https://semilla.com/"
+baseurl: "https://abjolabjol.chuncane.com/"
 DefaultContentLanguage: "es"
 languageCode: "es-ar"
 title: "Inicio"
 params:
-  description: El slogan
+  description: "Música"
   images:
   - '/img/quilt2.png'
-  title: Chuncane
+  title: AbjolAbjol
 googleAnalytics: 

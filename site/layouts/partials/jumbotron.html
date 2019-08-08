@@ -1,17 +1,8 @@
-<div class="absolute top0 left0 bg-highlight mh-50 mh-100-ns vh-50 vh-100-ns vw-100 h-100">
-  {{ partial "figure-jumbo" (dict "src" "" "class" "bg-black mh-50 mh-100-ns vh-50 vh-100-ns overflow-hidden of-cover vw-100 h-100" "title" "" "artist" "" "town" "") }}
-</div>
-<div class='db center mw5 mw6-ns'>
-  <div class="mh-50 mh-100-ns vh-50 vh-100-ns center ph4 pv4 dtc v-mid relative z9">
-    <div class="db mb3 center tc">
-        <h1 class="b f-headline-ns f2 lh-title mb3 white tight">
-          {{$.Title}}
-        </h1>
-        {{ if $.Params.subtitle }}
-          <span class="f4 lh-title mb3 white italic">
-            {{$.Params.subtitle}}
-          </span>
-        {{ end }}
-    </div>
-  </div>
-</div>
+<h1 class="f-headline-ns lh-title title tr pr3">
+  {{$.Title}}
+</h1>
+{{ with $.Params.subtitle }}
+  <span class="">
+    {{ . }}
+  </span>
+{{ end }}

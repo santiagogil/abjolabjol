@@ -2,16 +2,16 @@
 	/* Colors */
 	--primary: #333333;
 	--highlight: #ffde37;
-	--white: #fefefe;
+	--white: #eee957;
 	--off-white: #fafafa;
 	--grey-1: #86BA90;
 	--grey-2: rgba(235, 231, 230, 1);
 	--grey-3: rgba(89, 87, 86, 1);
 	--grey-4: rgba(66, 64, 64, 1);
-	--black: #222222;
+	--black: #180f0d;
 
 	/* Typography */
-	--font-family: sans-serif;
+	--font-family: 'Millimetre', sans-serif;
 	--line-height: 1.5;
 
 	--font-size: 18px;

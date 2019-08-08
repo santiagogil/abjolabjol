@@ -1,6 +1,6 @@
 {
-    "name": "Chuncane",
-    "short_name": "Chuncane",
+    "name": "Abjol Abjol",
+    "short_name": "Abjol Abjol",
     "start_url": "/",
     "icons": [
         {
@@ -14,7 +14,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#eef5ee",
-    "background_color": "#FFF6F2",
+    "theme_color": "#412722",
+    "background_color": "#412722",
     "display": "standalone"
 }
