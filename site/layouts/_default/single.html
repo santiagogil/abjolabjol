@@ -1,8 +1,8 @@
 {{ define "main" }}
-
-  <div class="mw6 center ph4 pv4">
-    <h1 class='f2 primary mb3'>{{.Title}}</h1>
-    <span class=''>{{ .Params.project }}</span>
+{{ partial "jumbotron" (dict "title" "ABJOL ABJOL") }}
+  <div class="mw7 center ph4 pt5">
+    <h2 class='f2 white'>{{.Title}}</h2>
+    <span class='db mb3'>{{ .Params.project }}</span>
     <audio controls preload="none">
       <source src="/{{ .Params.file }}.mp3" type="audio/mpeg">
       <source src="/{{ .Params.file }}.ogg" type="audio/ogg">
