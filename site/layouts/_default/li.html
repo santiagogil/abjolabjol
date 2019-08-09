@@ -3,7 +3,7 @@
     <h2 class='f3 white'>{{.Title}}</h2>
 </a>
     <span class='f5 db ttu mb2 loose'>{{ .Params.project }}</span>
-    <audio controls>
+    <audio controls preload="none">
       <source src="/{{ .Params.file }}.mp3" type="audio/mpeg">
       <source src="/{{ .Params.file }}.ogg" type="audio/ogg">
       <p>Tu navegador no soporta HTML5 audio. Podés descargar el archivo en mp4 <a href="{{ .Params.file }}.mp4">aquí.</a></p>

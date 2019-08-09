@@ -3,7 +3,7 @@
   <div class="mw6 center ph4 pv4">
     <h1 class='f2 primary mb3'>{{.Title}}</h1>
     <span class=''>{{ .Params.project }}</span>
-    <audio controls>
+    <audio controls preload="none">
       <source src="/{{ .Params.file }}.mp3" type="audio/mpeg">
       <source src="/{{ .Params.file }}.ogg" type="audio/ogg">
       <p>Tu navegador no soporta HTML5 audio. Podés descargar el archivo en mp4 <a href="{{ .Params.file }}.mp4">aquí.</a></p>
